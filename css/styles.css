@@ -62,7 +62,3 @@ h1 {
 .image-details span {
     font-size: 12px;
 }
-
-.image-wrapper:hover .image-details {
-    display: block;
-}
