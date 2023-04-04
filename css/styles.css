@@ -1,14 +1,19 @@
+/* The following code is a CSS code for a webpage. It sets the background color, font styles, and layout for the page */
+
+/* Set background color and padding for the entire page */
 body {
     background-color: #C8102E;
     padding: 10px;
 }
 
+/* Set border, padding, and alignment for heading */
 h1 {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
 
+/* Set flex container properties for the image-container */
 .image-container {
     display: flex;
     flex-direction: column;
@@ -17,6 +22,7 @@ h1 {
     padding: 10px;
 }
 
+/* Set border, padding, and positioning for the image-wrapper */
 .image-wrapper {
     margin: 10px;
     padding: 10px;
@@ -26,6 +32,7 @@ h1 {
     position: relative;
 }
 
+/* Set maximum width, height, and border-radius properties for the image and a transition effect on hover */
 .image {
     max-width: 80%;
     height: auto;
@@ -34,11 +41,13 @@ h1 {
     margin-right: 10px;
 }
 
+/* Set transform and cursor properties for the image on hover */
 .image:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
 
+/* Set font style, size, and alignment for the image-text */
 .image-text {
     color: white;
     font-size: 24px;
@@ -48,6 +57,7 @@ h1 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Set font size, weight, and positioning for the image-details */
 .image-details {
     margin-top: 5px;
     font-size: 16px;
@@ -59,6 +69,7 @@ h1 {
     width: 250px;
 }
 
+/* Set font size for the span element inside image-details */
 .image-details span {
     font-size: 12px;
 }
